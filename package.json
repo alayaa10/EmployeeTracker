@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/alayaa10/EmployeeTracker/issues"
   },
-  "homepage": "https://github.com/alayaa10/EmployeeTracker#readme"
+  "homepage": "https://github.com/alayaa10/EmployeeTracker#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  }
 }
