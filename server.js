@@ -1,5 +1,5 @@
-const mysql = require("mysql");
-const inquirer = require("inquirer");
+const mysql = require("mysql2");
+import inquirer from 'inquirer';
 require("console.table");
 
 //Create the connection to database 
