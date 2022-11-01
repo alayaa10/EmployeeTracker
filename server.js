@@ -1,5 +1,5 @@
 const mysql = require("mysql2");
-import inquirer from 'inquirer';
+const { prompt } = require("inquirer");
 require("console.table");
 
 //Create the connection to database 
@@ -17,7 +17,7 @@ connection.connect(function (err) {
 });
 
 function firstPrompt() {
-    inquirer.prompt([
+    prompt([
         {
             type: 'list',
             name: 'userChoice',

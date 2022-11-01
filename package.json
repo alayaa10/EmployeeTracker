@@ -18,8 +18,9 @@
   },
   "homepage": "https://github.com/alayaa10/EmployeeTracker#readme",
   "dependencies": {
-    "inquirer": "^9.1.4",
+    "inquirer": "^8.2.4",
     "mysql": "^2.18.1",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "console.table": "^0.10.0"
   }
 }
